@@ -1,0 +1,89 @@
+html,
+body{
+    height: 100vh;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "lato", sans-serif;
+    line-height: 1.8em;
+    color: #666;
+}
+.pimg1{
+     background-image: url(images/image1.png);
+     min-height: 100vh;
+
+}
+.pimg2{
+    background-image: url(images/image2.png);
+    min-height: 400px;
+
+}
+.pimg3{
+    background-image: url(images/image3.png);
+    min-height: 400px;
+
+}
+.pimg1,.pimg2,.pimg3{
+
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+
+}
+h2{
+    font-size: 24px;
+    letter-spacing: 5px;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+h2::selection{
+    background-color: red;
+    color: #f4f4f4;
+}
+h2::first-letter{
+    color: red;
+}
+p::first-line{
+    font-weight: 600;
+    
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 27px;
+    text-transform: uppercase;
+    color:black;
+    letter-spacing: 8px;
+    cursor: pointer;
+    
+}
+.pbg{
+    background-color: #313534;
+    padding: 30px;
+    color: #fff;
+}
+.section{
+    padding: 50px 88px ;
+    text-align: center;
+}
+.section_light{
+
+    background-color: #f4f4f4;
+    color: #666;
+}
+.section_dark{
+    background-color: #666;
+    color: #f4f4f4;
+}
+
+/* @media only screen and (max-width: 430px){
+   
+  
+}
+   */
